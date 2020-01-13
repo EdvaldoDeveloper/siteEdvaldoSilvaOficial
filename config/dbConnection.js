@@ -4,7 +4,7 @@ var comMySQL = () => {
     console.log('Conexão com bd foi estabelecida');
     return mysql.createConnection({
         host: 'localhost',
-        user: 'edvaldos_edvaldosilva',
+        user: 'edvaldos_edvaldo',
         password: 'pr06390721',
         database: 'edvaldos_db'
     });
