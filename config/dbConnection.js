@@ -3,10 +3,10 @@ var mysql = require('mysql');
 var comMySQL = () => {
     console.log('Conexão com bd foi estabelecida');
     return mysql.createConnection({
-        host: 'mysql669.umbler.com',
-        user: 'edvaldofullstack',
-        password: 'pr6390721social4904',
-        database: 'my_stack'
+        host: 'localhost',
+        user: 'edvaldos_edvaldosilva',
+        password: 'pr06390721',
+        database: 'edvaldos_db'
     });
     
 }
